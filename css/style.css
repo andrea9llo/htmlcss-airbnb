@@ -15,6 +15,7 @@ section{
   margin-left:500PX;
   margin-bottom: 10px;
   position: relative;
+  cursor: pointer;
 }
 .layover{
   position: absolute;
@@ -23,7 +24,7 @@ section{
   background: rgba(0, 0, 0, 0.7);
 }
 h1{
-  color: rgba( 255,255,255,0.7);
+  color: rgba( 255,255,255,0.8);
   font-size: 30px;
   position: absolute;
   top: 50%;
