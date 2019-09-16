@@ -11,7 +11,7 @@ section{
 .container{
   width: 350px;
   height: 250px;
-  background: url(http://lorempixel.com/output/city-q-c-350-250-1.jpg);
+  background: url("http://lorempixel.com/output/city-q-c-350-250-1.jpg");
   margin-left:500PX;
   margin-bottom: 10px;
   position: relative;
@@ -24,16 +24,20 @@ section{
   background: rgba(0, 0, 0, 0.7);
 }
 h1{
-  color: rgba( 255,255,255,0.8);
+  color: rgb( 255,255,255);
   font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform:translate(-50%,-50%);
+  text-shadow: 2px 2px black;
 }
 .cope{
   background: url(http://lorempixel.com/output/city-q-c-350-250-8.jpg);
 }
 .tokyo{
   background: url(http://lorempixel.com/output/city-q-c-350-250-10.jpg);
+}
+.layover:hover{
+  background-color: rgba(0, 0, 0, 0);
 }
